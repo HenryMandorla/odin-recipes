@@ -1,0 +1,37 @@
+* {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+body {
+    background-color: blanchedalmond;
+}
+
+img {
+    height: auto; 
+    width: 600px;
+    display: block; margin-left: auto; margin-right: auto;
+}
+
+#home-button {
+    display: block;
+    text-align: right;
+    padding: 15px;
+    margin-right: 40px;
+}
+
+.title-text {
+    text-align: center;
+    font-size: x-large;
+}
+
+.desc-text {
+    color: black; text-align: center;
+}
+
+.ingredients-text,
+.steps-text {
+     color: black;
+     display: block;
+     background-color: white;
+     border-radius: 35px;
+     padding: 15px;
+    }
+

@@ -22,6 +22,20 @@ img {
     font-size: x-large;
 }
 
+.secondary-title-text {
+    display: block;
+    position: inline;
+    text-align: center;
+    font-size: large;
+}
+
+.secondary-title-text {
+    transition-duration: 200ms; 
+}
+.secondary-title-text:hover { 
+    font-size: 125%; 
+}
+
 .desc-text {
     color: black; text-align: center;
 }

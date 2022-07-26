@@ -1,7 +1,110 @@
-* {font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+* {font-family: Verdana, Geneva, Tahoma, sans-serif }
+
+.header {
+    background-color: black;
+    color: goldenrod;
+    text-align: center;
+    padding: 1px;
+    border: 3px;
+    border-style: solid;
+    border-color: goldenrod;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.right-col {
+    background-color: darkgray;
+    padding-bottom: 200px;
+    padding-top: 40px;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+
+.left-col {
+    background-color: darkgray;
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    height: 100%;
+}
+
+.left-col,
+.right-col,
+.center-col {
+    display: inline;
+    border: 3px;
+    border-style: solid;
+    border-color: goldenrod;
+}
+
+.center-col {
+    padding-bottom: 20px;
+    padding-top: 40px;
+    width: 33.33%;
+    float: left;
+    background-color: lightgray;
+    height: 100%;
+}
+
+.footer {
+    background-color: lightgray;
+    text-align: right;
+    height: 50px;
+    padding-top: 10px;
+    padding-right: 65px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    clear: both;
+}
+
+.container div {
+    padding: 1px;
+    box-sizing: border-box;
+    min-height: 500px;
+    padding-top: 20px;
+}
+
+#index-body img {
+    height: 400px;
+    width: 400px;
+}
+
+#home-button {
+    display: block;
+    text-align: right;
+    padding: 15px;
+    margin-right: 40px;
+    position: relative;
+}
+
+#home-input {
+    height: 45px;
+    width: 100px;
+    position: relative;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: rgb(86, 83, 81);
+    font-size: large;
+    font-weight: bold;
+}
+
+#home-input {
+    transition-duration: 200ms;
+}
+
+#home-input:hover {
+    display: inline;
+    font-size: 21px;
+}
 
 body {
-    background-color: blanchedalmond;
+    background-color: black;
+    margin: 0%;
 }
 
 img {
@@ -10,16 +113,10 @@ img {
     display: block; margin-left: auto; margin-right: auto;
 }
 
-#home-button {
-    display: block;
-    text-align: right;
-    padding: 15px;
-    margin-right: 40px;
-}
-
 .title-text {
     text-align: center;
     font-size: x-large;
+    color: goldenrod;
 }
 
 .secondary-title-text {
@@ -27,25 +124,26 @@ img {
     position: inline;
     text-align: center;
     font-size: large;
+    color: goldenrod;
+}
+
+.secondary-title-text:hover { 
+    font-size: 125%; 
 }
 
 .secondary-title-text {
     transition-duration: 200ms; 
 }
-.secondary-title-text:hover { 
-    font-size: 125%; 
-}
 
 .desc-text {
-    color: black; text-align: center;
+    color: gray; text-align: center;
 }
 
 .ingredients-text,
 .steps-text {
-     color: black;
-     display: block;
-     background-color: white;
-     border-radius: 35px;
-     padding: 15px;
+        color: black;
+        display: block;
+        background-color: grey;
+        border-radius: 35px;
+        padding: 15px;
     }
-

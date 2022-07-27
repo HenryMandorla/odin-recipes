@@ -68,8 +68,8 @@
 }
 
 #index-body img {
-    height: 400px;
-    width: 400px;
+    height: auto;
+    width: 80%;
 }
 
 #home-button {

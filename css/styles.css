@@ -23,7 +23,7 @@
     background-color: lightcyan;
     min-height: 30rem;
     text-align: center;
-    height: 100%;
+    height: auto;
     width: 100%;
     margin: 1rem;
 }

@@ -2,6 +2,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body {
+    background-color: white;
+}
+
 .header {
     color: black;
     text-align: center;
@@ -13,6 +17,12 @@
     margin-bottom: 5px;
 }
 
+.container {
+    padding: 1px;
+    box-sizing: border-box;
+    display: flex;
+}
+
 .left-col,
 .right-col,
 .center-col {
@@ -21,31 +31,30 @@
     border-style: solid;
     border-color: lightblue;
     background-color: lightcyan;
-    min-height: 30rem;
     text-align: center;
     height: auto;
     width: 100%;
-    margin: 1rem;
+    margin: 0.5rem;
+    padding: 1rem;
 }
 
 .footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: lightgray;
     text-align: right;
-    height: 50px;
-    padding-top: 10px;
-    padding-right: 65px;
-    padding-bottom: 10px;
+    height: 3rem;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 100rem;
     font-weight: bold;
-    clear: both;
 }
 
-.container {
-    padding: 1px;
-    box-sizing: border-box;
-    display: flex;
-    padding-top: 20px;
-    margin-left: 20px;
-    min-height: 10rem;
+#footer-text {
+    margin-right: 4rem;
 }
 
 #index-body img {
@@ -63,7 +72,7 @@
 
 #home-input {
     height: 45px;
-    width: 100px;
+    width: 7rem;
     position: relative;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
@@ -81,14 +90,9 @@
     font-size: 21px;
 }
 
-body {
-    background-color: white;
-    margin: 0%;
-}
-
 img {
     height: auto; 
-    width: 600px;
+    width: 30rem;
     display: block; margin-left: auto; margin-right: auto;
 }
 

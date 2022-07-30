@@ -19,11 +19,15 @@ body {
     margin-bottom: 5px;
 }
 
+
 .container {
-    padding: 1px;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
+@media (min-width: 48em) {
 .left-col,
 .right-col,
 .center-col {
@@ -34,14 +38,16 @@ body {
     background-color: lightcyan;
     text-align: center;
     height: auto;
-    width: 100%;
     margin: 0.5rem;
     padding: 1rem;
+    flex: 30%;
+    max-width: 33.33%;
+    flex-wrap: nowrap;
+}
 }
 
 .footer {
     display: flex-end;
-    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;

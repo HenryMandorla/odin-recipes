@@ -79,6 +79,7 @@ body {
 }
 
 #home-input {
+    cursor: pointer;
     height: 45px;
     width: 7rem;
     position: relative;
